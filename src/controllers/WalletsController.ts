@@ -10,10 +10,7 @@ export default {
 
     const walletInfo = await walletController.getWalletInfo({
       address,
-      protocol,            
-      tokenAddresses: [
-        '0x08B31270DE323EfAB3998011b263528f9a7D3e9d'
-      ]
+      protocol
     })
 
     return res.json({ walletInfo })

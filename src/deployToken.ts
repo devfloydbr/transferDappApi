@@ -23,7 +23,7 @@ async function deployToken() {
       tokenType: 'ERC20',
       params: ['TRANSFER', 'TRAN', '1000000'],
       protocol: 'CELO',
-      testnet: true
+      testnet: true      
     })
   
     console.log(transaction)  
